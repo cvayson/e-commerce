@@ -1,0 +1,15 @@
+package com.example.ecommerce.Payload;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class ReviewRequest {
+
+    private Double rating;
+    private String comment;
+
+}
